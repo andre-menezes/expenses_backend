@@ -3,11 +3,8 @@
 # Summary
 
 - [About](#about)
-
-  - [Technologies](#technologies)
-
-- [Instructions](#instructions)
-
+- [Technologies](#technologies)
+  - [Instructions](#instructions)
 - [API](#api)
   - [Read](#read)
   - [Create](#create)
@@ -54,7 +51,7 @@ This project is the backend of the Expenses project. It is possible to perform a
 ### READ
 
 - Get All: `GET` `/api/v1/expenses`
-- Get By ID `GET` `/api/v1/expenses/:id`
+- Get By ID: `GET` `/api/v1/expenses/:id`
 
 Response:
 
@@ -126,7 +123,7 @@ Response:
 
 ### DELETE
 
-- Delete Expense: `PUT` `/api/v1/expenses/:id`
+- Delete Expense: `DELETE` `/api/v1/expenses/:id`
 
 Response:
 
